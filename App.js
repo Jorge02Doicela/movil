@@ -14,8 +14,8 @@ export default function App() {
        setAltura(value);
       console.log(altura);
       }} style={styles.textInput} keyboardType='numeric' placeholder='Ingrese su Altura(m):'></TextInput>
-      <Button title='Calcular' onPress={()=>{Alert.alert("Información","Felicidades, es tu primer Alerta"); }}>
-      </Button>
+      <Button title='Calcular' onPress={()=>{Alert.alert("Información", calcularNivelPeso(peso, altura));
+      }}></Button>
     </View>
   );
 }
