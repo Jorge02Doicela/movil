@@ -38,6 +38,7 @@ if(imc<18.5){
   if(imc>30){
     respuesta ="su iMC es:"+imc+"obesidad";
   }
+return respuesta;
 }
 
 const styles = StyleSheet.create({
